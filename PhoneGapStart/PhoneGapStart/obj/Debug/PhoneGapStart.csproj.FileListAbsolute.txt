@@ -1,0 +1,14 @@
+c:\users\kant\documents\visual studio 2010\Projects\PhoneGapStart\PhoneGapStart\Bin\Debug\ApplicationIcon.png
+c:\users\kant\documents\visual studio 2010\Projects\PhoneGapStart\PhoneGapStart\Bin\Debug\Background.png
+c:\users\kant\documents\visual studio 2010\Projects\PhoneGapStart\PhoneGapStart\Bin\Debug\PhoneGapStart.dll
+c:\users\kant\documents\visual studio 2010\Projects\PhoneGapStart\PhoneGapStart\Bin\Debug\PhoneGapStart.pdb
+c:\users\kant\documents\visual studio 2010\Projects\PhoneGapStart\PhoneGapStart\Bin\Debug\AppManifest.xaml
+c:\users\kant\documents\visual studio 2010\Projects\PhoneGapStart\PhoneGapStart\Bin\Debug\PhoneGapStart.xap
+c:\users\kant\documents\visual studio 2010\Projects\PhoneGapStart\PhoneGapStart\Bin\Debug\WP7CordovaClassLib.dll
+c:\users\kant\documents\visual studio 2010\Projects\PhoneGapStart\PhoneGapStart\obj\Debug\ResolveAssemblyReference.cache
+c:\users\kant\documents\visual studio 2010\Projects\PhoneGapStart\PhoneGapStart\obj\Debug\App.g.i.cs
+c:\users\kant\documents\visual studio 2010\Projects\PhoneGapStart\PhoneGapStart\obj\Debug\MainPage.g.i.cs
+c:\users\kant\documents\visual studio 2010\Projects\PhoneGapStart\PhoneGapStart\obj\Debug\PhoneGapStart.g.resources
+c:\users\kant\documents\visual studio 2010\Projects\PhoneGapStart\PhoneGapStart\obj\Debug\PhoneGapStart.dll
+c:\users\kant\documents\visual studio 2010\Projects\PhoneGapStart\PhoneGapStart\obj\Debug\PhoneGapStart.pdb
+c:\users\kant\documents\visual studio 2010\Projects\PhoneGapStart\PhoneGapStart\obj\Debug\XapCacheFile.xml

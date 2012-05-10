@@ -1,0 +1,112 @@
+﻿<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, maximum-scale=1.0, user-scalable=no;" />
+        <meta http-equiv="Content-type" content="text/html; charset=utf-8"/>
+    
+        <title>
+            PhoneGap for WP7
+        </title>
+        <link rel="stylesheet" href="jquery.mobile-1.0.1.css" type="text/css" media="screen" title="no title" charset="utf-8"/>
+
+        <!--<link rel="stylesheet" href="master.css" type="text/css" media="screen" title="no title" charset="utf-8"/>-->
+        <script type="text/javascript" charset="utf-8" src="jquery-1.7.1.js"></script>
+
+        <script type="text/javascript" charset="utf-8" src="jquery.mobile-1.0.1.js "></script>   
+        <script type="text/javascript" charset="utf-8" src="cordova-1.5.0.js"></script>
+       
+        <script type="text/javascript">
+
+            document.addEventListener("deviceready", onDeviceReady, false);
+
+            // once the device ready event fires, you can safely do your thing! -jm
+            function onDeviceReady(){
+                            document.getElementById("welcomeMsg").innerHTML += "Cordova/PhoneGap is ready! version=" + window.device.cordova;
+                            console.log("onDeviceReady. You should see this message in Visual Studio's output window.");
+
+                            navigator.camera.getPicture(onSuccess, onError, { quality: 50,
+                                destinationType: Camera.DestinationType.FILE_URI
+                            });
+            
+            }
+
+            function onSuccess(imageURI) {
+                var dimage = document.getElementById('dimg');
+                dimage.src = imageURI;
+            }
+
+            function onError(message) {
+    alert('Failed because: ' + message);
+}
+
+        </script>
+      
+	 
+
+
+    </head>
+    <body>
+        <!--<h1>Hello PhoneGap</h1>
+        <div id="welcomeMsg"></div>-->
+
+        <div data-role="page">
+            <div data-role="header" data-theme="b">
+                <h1>
+                    First Application
+                </h1>
+            </div>
+            <div data-role="content" data-theme="c">
+
+                <p>
+                    Made by Abhishek
+                </p>
+                <a href="#newscreen" data-role="button" data-icon="star" data-iconpos="bottom">
+                    Star button
+                </a>
+                <div data-role="listview">
+                    <ul>
+                        <li> Chintu</li>
+                        <li> Manu</li>
+                        <li> Gullu</li>
+                    </ul>
+                </div>
+
+                <div id="devicenotification">
+                <img id="dimg" />
+                </div>
+            </div>
+            <div data-role="footer" data-position="fixed"> 
+                <div data-role="navbar">
+                    <ul>
+                        <li>
+                            <a href="#">One</a>
+                        </li>
+                        <li>
+                            <a href="#">Two</a>
+                        </li>
+                        <li>
+                            <a href="#">Three</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div id="newscreen" data-role="page">
+            <div data-role="header">
+                <h1>
+                    First Application
+                </h1>
+            </div>
+            <div data-role="content" data-theme="c">
+                <p>
+                    This is where to host content.
+                </p>
+                <a href="#" data-rel="back" data-role="button>Back</a>
+                   </div>
+   
+                   </div>
+
+
+                   </body>
+                   </html>
